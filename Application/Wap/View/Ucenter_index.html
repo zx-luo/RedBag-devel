@@ -1,0 +1,51 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>个人中心</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<script src="__PUBLIC__/js/jquery-2.1.1.min.js"></script>
+<link href="__PUBLIC__/css/base.css?v={:rand(0,99)}" rel="stylesheet" type="text/css">
+<link href="__PUBLIC__/Wap/css/index.css?v={:rand(0,99)}" rel="stylesheet" type="text/css">
+<link href="__PUBLIC__/Wap/css/head.css?v={:rand(0,99)}" rel="stylesheet" type="text/css">
+<style></style>
+<script>
+$(document).ready(function () { 
+   $('.current').click(function(){
+	   var djine = parseFloat($('input[name="djine"]').val());
+	   if(isNaN(djine) || djine < 0){
+			 $('.msgbox .txt').text('请输入金额！');
+			 $('.msgbox').show();
+			 return false;
+	   }
+	   location.href = "{:U('Chongzhi/chong?ctype=3&djine=')}"+djine;
+   });
+});
+</script>
+</head>
+<body>
+<include file="Index/head" />
+<ul class="ucenter-index member publickuang">
+  <li>
+    <h3>{$jiazhunum}</h3>
+    <p>下线成员</p>
+  </li>
+  <li>
+    <h3>{$userzhanghu['uzhengzong']/100}</h3>
+    <p>总佣金</p>
+  </li>
+  <li>
+    <h3>{$userzhanghu['uqianzheng']/100}</h3>
+    <p>待发佣金</p>
+  </li>  
+</ul>
+
+<ul class="ucenter-index nav publickuang">
+  <li><font color="#ff2c4c">￥</font><input name="djine" value="100" type="number"> <span class="current">立即充值</span> </li>
+  <li> <a href="{:U('Ucenter/hblist')}"> <img src="__PUBLIC__/Wap/img/i2.gif" class="imgico"> 红包记录 <img src="__PUBLIC__/Wap/img/1.png" class="imgstart"></a> </li>
+  <li><a href="{:U('Ucenter/chonglist')}"> <img src="__PUBLIC__/Wap/img/i3.gif" class="imgico"> 充值记录 <img src="__PUBLIC__/Wap/img/1.png" class="imgstart"></a> </li>
+  <li><a href="{:U('Index/kefu')}"> <img src="__PUBLIC__/Wap/img/i1.png" class="imgico"> 联系客服 <img src="__PUBLIC__/Wap/img/1.png" class="imgstart"></a></li>
+</ul>
+<include file="Index/menu" />
+</body>
+</html>

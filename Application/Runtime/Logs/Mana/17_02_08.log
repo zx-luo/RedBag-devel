@@ -1,0 +1,1266 @@
+[ 2017-02-08T10:25:12+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:25:12+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:25:12+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Login&a=ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:25:21+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Login&a=ajaxlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cishu D:\phpStudy\WWW\Application\Mana\Controller\LoginController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `77768688_sys_user` [ RunTime:0.3700s ]
+SQL: SELECT * FROM `77768688_sys_user` WHERE ( uname='admin' ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: UPDATE `77768688_sys_user` SET `utime`='1486520721' WHERE `id` = 1 [ RunTime:0.0670s ]
+
+[ 2017-02-08T10:25:21+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-08T10:25:21+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Index&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-08T10:25:22+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Index&a=left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:25:22+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Index&a=center
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:25:22+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Index&a=footer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:25:35+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Hb&a=show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Mana\Controller\HbController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\Application\Mana\Controller\HbController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_hb` [ RunTime:0.0240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `77768688_hb` WHERE ( htype=1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `77768688_hb` WHERE ( htype=1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-08T10:25:43+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Shuju&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_user_chongzhi` [ RunTime:0.0610s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dcode=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `77768688_user_hb` [ RunTime:0.0300s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `77768688_user_tixian` [ RunTime:0.0180s ]
+SQL: SELECT SUM(tixiane) AS tp_sum FROM `77768688_user_tixian` WHERE ( tcode in(2) ) LIMIT 1   [ RunTime:0.0490s ]
+SQL: SELECT SUM(tixiane) AS tp_sum FROM `77768688_user_tixian` WHERE ( tcode in(1) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(tixiane) AS tp_sum FROM `77768688_user_tixian` WHERE ( tcode in(4) ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:25:44+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Shuju&a=ajaxtubiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_user_chongzhi` [ RunTime:0.0070s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1483891200 and dtime<1483977600 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `77768688_user_hb` [ RunTime:0.0070s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1483891200 and ttime < 1483977600 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1483977600 and dtime<1484064000 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1483977600 and ttime < 1484064000 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1484064000 and dtime<1484150400 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1484064000 and ttime < 1484150400 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1484150400 and dtime<1484236800 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1484150400 and ttime < 1484236800 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1484236800 and dtime<1484323200 and dcode =2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1484236800 and ttime < 1484323200 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1484323200 and dtime<1484409600 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1484323200 and ttime < 1484409600 and tcode=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1484409600 and dtime<1484496000 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1484409600 and ttime < 1484496000 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1484496000 and dtime<1484582400 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1484496000 and ttime < 1484582400 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1484582400 and dtime<1484668800 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1484582400 and ttime < 1484668800 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1484668800 and dtime<1484755200 and dcode =2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1484668800 and ttime < 1484755200 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1484755200 and dtime<1484841600 and dcode =2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1484755200 and ttime < 1484841600 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1484841600 and dtime<1484928000 and dcode =2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1484841600 and ttime < 1484928000 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1484928000 and dtime<1485014400 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1484928000 and ttime < 1485014400 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1485014400 and dtime<1485100800 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1485014400 and ttime < 1485100800 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1485100800 and dtime<1485187200 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1485100800 and ttime < 1485187200 and tcode=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1485187200 and dtime<1485273600 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1485187200 and ttime < 1485273600 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1485273600 and dtime<1485360000 and dcode =2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1485273600 and ttime < 1485360000 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1485360000 and dtime<1485446400 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1485360000 and ttime < 1485446400 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1485446400 and dtime<1485532800 and dcode =2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1485446400 and ttime < 1485532800 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1485532800 and dtime<1485619200 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1485532800 and ttime < 1485619200 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1485619200 and dtime<1485705600 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1485619200 and ttime < 1485705600 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1485705600 and dtime<1485792000 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1485705600 and ttime < 1485792000 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1485792000 and dtime<1485878400 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1485792000 and ttime < 1485878400 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1485878400 and dtime<1485964800 and dcode =2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1485878400 and ttime < 1485964800 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1485964800 and dtime<1486051200 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1485964800 and ttime < 1486051200 and tcode=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1486051200 and dtime<1486137600 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1486051200 and ttime < 1486137600 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1486137600 and dtime<1486224000 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1486137600 and ttime < 1486224000 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1486224000 and dtime<1486310400 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1486224000 and ttime < 1486310400 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1486310400 and dtime<1486396800 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1486310400 and ttime < 1486396800 and tcode=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(djine) AS tp_sum FROM `77768688_user_chongzhi` WHERE ( dtime>1486396800 and dtime<1486483200 and dcode =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(hbe) AS tp_sum FROM `77768688_user_hb` WHERE ( ttime>1486396800 and ttime < 1486483200 and tcode=1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-08T10:25:45+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Hb&a=show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Mana\Controller\HbController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\Application\Mana\Controller\HbController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_hb` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `77768688_hb` WHERE ( htype=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `77768688_hb` WHERE ( htype=1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-08T10:25:46+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Hb&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Mana\Controller\HbController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\Application\Mana\Controller\HbController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_hb` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `77768688_hb` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `77768688_hb_gailv` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `77768688_hb_gailv` WHERE ( hbid=0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 80 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 94 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 94 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 95 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 96 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 96 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 97 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:25:46+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Hb&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Mana\Controller\HbController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\Application\Mana\Controller\HbController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_hb` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `77768688_hb` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `77768688_hb_gailv` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `77768688_hb_gailv` WHERE ( hbid=0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 80 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 94 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 94 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 95 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 96 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 96 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 97 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-08T10:26:01+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Index&a=jiekou
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant adminid - assumed 'adminid' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\c5d6345f859aae5cbc57085d90531ab4.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-08T10:26:03+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Wxhuifu&a=keyleixing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:26:05+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Wxcaidan&a=show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Mana\Controller\WxcaidanController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\Application\Mana\Controller\WxcaidanController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_weixin_caidan` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `77768688_weixin_caidan` WHERE `cid` = 0 AND `adminid` = 1 ORDER BY cnum desc,id desc  [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-08T10:26:06+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Wxcaidan&a=edit&cid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Mana\Controller\WxcaidanController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\Application\Mana\Controller\WxcaidanController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_weixin_caidan` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `77768688_weixin_caidan` WHERE (  id = 0  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `77768688_weixin_sendkey` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `77768688_weixin_sendkey`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-08T10:26:08+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Yongjin&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_yongjin_set` [ RunTime:0.0410s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `77768688_yongjin_set` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `77768688_yongjin_set` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:26:09+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Yongjin&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_yongjin_set` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `77768688_yongjin_set` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\94e78c76452e83313b62dc3997ec9e6a.php 第 32 行.
+NOTIC: [8] Use of undefined constant ydengji - assumed 'ydengji' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\94e78c76452e83313b62dc3997ec9e6a.php 第 38 行.
+NOTIC: [8] Use of undefined constant ydengji - assumed 'ydengji' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\94e78c76452e83313b62dc3997ec9e6a.php 第 39 行.
+NOTIC: [8] Use of undefined constant ydengji - assumed 'ydengji' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\94e78c76452e83313b62dc3997ec9e6a.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:26:10+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Zhuanpan&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_hb` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `77768688_hb` WHERE ( htype=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `77768688_hb_gailv` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `77768688_hb_gailv` WHERE ( hbid=0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 78 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 87 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 87 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 88 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 88 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 89 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 89 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 90 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 91 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 91 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-08T10:26:11+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Zhuanpan&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_hb` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `77768688_hb` WHERE ( htype=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `77768688_hb_gailv` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `77768688_hb_gailv` WHERE ( hbid=0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 78 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 87 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 87 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 88 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 88 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 89 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 89 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 90 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 91 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 91 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:26:18+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Sysconfig&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_sys_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `77768688_sys_config` WHERE ( adminid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant cbeicode - assumed 'cbeicode' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\3cf70637a1f8a52468fc8e6c5582ce3e.php 第 30 行.
+NOTIC: [8] Use of undefined constant cbeicode - assumed 'cbeicode' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\3cf70637a1f8a52468fc8e6c5582ce3e.php 第 30 行.
+NOTIC: [8] Use of undefined constant cmaurl - assumed 'cmaurl' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\3cf70637a1f8a52468fc8e6c5582ce3e.php 第 69 行.
+NOTIC: [8] Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\3cf70637a1f8a52468fc8e6c5582ce3e.php 第 69 行.
+NOTIC: [8] Use of undefined constant cfaurl - assumed 'cfaurl' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\3cf70637a1f8a52468fc8e6c5582ce3e.php 第 73 行.
+NOTIC: [8] Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\3cf70637a1f8a52468fc8e6c5582ce3e.php 第 73 行.
+NOTIC: [8] Use of undefined constant cbeiurl - assumed 'cbeiurl' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\3cf70637a1f8a52468fc8e6c5582ce3e.php 第 112 行.
+NOTIC: [8] Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\3cf70637a1f8a52468fc8e6c5582ce3e.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-08T10:26:33+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Sysuser&a=passedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:26:35+08:00 ] 127.0.0.1 /index.php?m=Mana&c=News&a=newsedit&ntype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_news` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `77768688_news` WHERE ( ntype=1 ) LIMIT 1   [ RunTime:0.0180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ncontent - assumed 'ncontent' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\d6c86da7f484d59485be69ae31da3cb4.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:26:37+08:00 ] 127.0.0.1 /index.php?m=Mana&c=News&a=newsedit&ntype=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_news` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `77768688_news` WHERE ( ntype=2 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ncontent - assumed 'ncontent' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\d6c86da7f484d59485be69ae31da3cb4.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:26:38+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Chouzhong&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_sys_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `77768688_sys_config` WHERE ( adminid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant cwxchoutxt - assumed 'cwxchoutxt' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\f087e7d8e5b0b9575af321c5281e0335.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-08T10:26:39+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Yongjin&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_yongjin_set` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `77768688_yongjin_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `77768688_yongjin_set` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-08T10:26:41+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Yongjin&a=fenxiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_fenxiao` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `77768688_fenxiao` LIMIT 1   [ RunTime:0.0220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\4047524a8f3fda500094272522dd1ce2.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:26:42+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Sysconfig&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_sys_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `77768688_sys_config` WHERE ( adminid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant cbeicode - assumed 'cbeicode' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\3cf70637a1f8a52468fc8e6c5582ce3e.php 第 30 行.
+NOTIC: [8] Use of undefined constant cbeicode - assumed 'cbeicode' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\3cf70637a1f8a52468fc8e6c5582ce3e.php 第 30 行.
+NOTIC: [8] Use of undefined constant cmaurl - assumed 'cmaurl' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\3cf70637a1f8a52468fc8e6c5582ce3e.php 第 69 行.
+NOTIC: [8] Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\3cf70637a1f8a52468fc8e6c5582ce3e.php 第 69 行.
+NOTIC: [8] Use of undefined constant cfaurl - assumed 'cfaurl' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\3cf70637a1f8a52468fc8e6c5582ce3e.php 第 73 行.
+NOTIC: [8] Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\3cf70637a1f8a52468fc8e6c5582ce3e.php 第 73 行.
+NOTIC: [8] Use of undefined constant cbeiurl - assumed 'cbeiurl' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\3cf70637a1f8a52468fc8e6c5582ce3e.php 第 112 行.
+NOTIC: [8] Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\3cf70637a1f8a52468fc8e6c5582ce3e.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:26:43+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Sysuser&a=userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_sys_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `77768688_sys_user` WHERE `utype` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `77768688_sys_user` WHERE `utype` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:26:46+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Hb&a=show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Mana\Controller\HbController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\Application\Mana\Controller\HbController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_hb` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `77768688_hb` WHERE ( htype=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `77768688_hb` WHERE ( htype=1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:26:50+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Hb&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Mana\Controller\HbController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\Application\Mana\Controller\HbController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_hb` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `77768688_hb` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `77768688_hb_gailv` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `77768688_hb_gailv` WHERE ( hbid=0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 80 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 94 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 94 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 95 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 96 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 96 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 97 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-08T10:26:50+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Hb&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Mana\Controller\HbController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\Application\Mana\Controller\HbController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_hb` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `77768688_hb` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `77768688_hb_gailv` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `77768688_hb_gailv` WHERE ( hbid=0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 80 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 94 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 94 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 95 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 96 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 96 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 97 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\b0e3947a6ee33716e0297266c6f78100.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:26:52+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Zhuanpan&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_hb` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `77768688_hb` WHERE ( htype=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `77768688_hb_gailv` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `77768688_hb_gailv` WHERE ( hbid=0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 78 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 87 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 87 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 88 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 88 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 89 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 89 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 90 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 91 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 91 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:26:53+08:00 ] 127.0.0.1 /index.php?m=Mana&c=Zhuanpan&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\Application\Mana\Controller\CommonController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `77768688_hb` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `77768688_hb` WHERE ( htype=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `77768688_hb_gailv` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `77768688_hb_gailv` WHERE ( hbid=0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 78 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 87 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 87 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 88 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 88 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 89 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 89 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 90 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 91 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 91 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Use of undefined constant hjiaodu - assumed 'hjiaodu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 95 行.
+NOTIC: [8] Use of undefined constant hmin - assumed 'hmin' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 96 行.
+NOTIC: [8] Use of undefined constant hmax - assumed 'hmax' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 97 行.
+NOTIC: [8] Use of undefined constant hgailv - assumed 'hgailv' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 98 行.
+NOTIC: [8] Use of undefined constant hcishu - assumed 'hcishu' D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\Application\Runtime\Cache\Mana\6f17d6f7080e6d55deb44c97eb5af575.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

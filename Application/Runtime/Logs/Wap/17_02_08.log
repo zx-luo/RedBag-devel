@@ -1,0 +1,55 @@
+[ 2017-02-08T10:24:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: m D:\phpStudy\WWW\Application\Wap\Controller\CommonController.class.php 第 8 行.
+NOTIC: [8] Undefined index: c D:\phpStudy\WWW\Application\Wap\Controller\CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined index: a D:\phpStudy\WWW\Application\Wap\Controller\CommonController.class.php 第 10 行.
+NOTIC: [8] Undefined index: utid D:\phpStudy\WWW\Application\Wap\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8] Undefined index: ubeiopenid D:\phpStudy\WWW\Application\Wap\Controller\CommonController.class.php 第 12 行.
+NOTIC: [8] Undefined index: utid D:\phpStudy\WWW\Application\Wap\Controller\CommonController.class.php 第 14 行.
+
+[ 2017-02-08T10:25:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: m D:\phpStudy\WWW\Application\Wap\Controller\CommonController.class.php 第 8 行.
+NOTIC: [8] Undefined index: c D:\phpStudy\WWW\Application\Wap\Controller\CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined index: a D:\phpStudy\WWW\Application\Wap\Controller\CommonController.class.php 第 10 行.
+NOTIC: [8] Undefined index: utid D:\phpStudy\WWW\Application\Wap\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8] Undefined index: ubeiopenid D:\phpStudy\WWW\Application\Wap\Controller\CommonController.class.php 第 12 行.
+NOTIC: [8] Undefined index: utid D:\phpStudy\WWW\Application\Wap\Controller\CommonController.class.php 第 14 行.
+
+[ 2017-02-08T10:25:26+08:00 ] 127.0.0.1 /index.php?m=Wap&c=Wxlogin&a=index&urls=m-%7Cc-%7Ca-%7Cutid-%7Cubeiopenid-
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `77768688_sys_config` [ RunTime:0.1540s ]
+SQL: SELECT * FROM `77768688_sys_config` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T11:26:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+NOTIC: [8] Undefined index: m D:\phpStudy\WWW\Application\Wap\Controller\CommonController.class.php 第 8 行.
+NOTIC: [8] Undefined index: c D:\phpStudy\WWW\Application\Wap\Controller\CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined index: a D:\phpStudy\WWW\Application\Wap\Controller\CommonController.class.php 第 10 行.
+NOTIC: [8] Undefined index: utid D:\phpStudy\WWW\Application\Wap\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8] Undefined index: ubeiopenid D:\phpStudy\WWW\Application\Wap\Controller\CommonController.class.php 第 12 行.
+NOTIC: [8] Undefined index: utid D:\phpStudy\WWW\Application\Wap\Controller\CommonController.class.php 第 14 行.
+

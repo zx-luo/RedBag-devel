@@ -1,0 +1,43 @@
+[ 2017-03-24T11:45:21+08:00 ] 62.215.202.190 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: m C:\PHP\WWW\hongbao\Application\Wap\Controller\CommonController.class.php 第 8 行.
+NOTIC: [8] Undefined index: c C:\PHP\WWW\hongbao\Application\Wap\Controller\CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined index: a C:\PHP\WWW\hongbao\Application\Wap\Controller\CommonController.class.php 第 10 行.
+NOTIC: [8] Undefined index: utid C:\PHP\WWW\hongbao\Application\Wap\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8] Undefined index: ubeiopenid C:\PHP\WWW\hongbao\Application\Wap\Controller\CommonController.class.php 第 12 行.
+NOTIC: [8] Undefined index: utid C:\PHP\WWW\hongbao\Application\Wap\Controller\CommonController.class.php 第 14 行.
+
+[ 2017-03-24T12:16:56+08:00 ] 140.205.201.43 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: m C:\PHP\WWW\hongbao\Application\Wap\Controller\CommonController.class.php 第 8 行.
+NOTIC: [8] Undefined index: c C:\PHP\WWW\hongbao\Application\Wap\Controller\CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined index: a C:\PHP\WWW\hongbao\Application\Wap\Controller\CommonController.class.php 第 10 行.
+NOTIC: [8] Undefined index: utid C:\PHP\WWW\hongbao\Application\Wap\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8] Undefined index: ubeiopenid C:\PHP\WWW\hongbao\Application\Wap\Controller\CommonController.class.php 第 12 行.
+NOTIC: [8] Undefined index: utid C:\PHP\WWW\hongbao\Application\Wap\Controller\CommonController.class.php 第 14 行.
+
+[ 2017-03-24T12:17:20+08:00 ] 140.205.201.43 /wap/templates/met/images/listico.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-24T12:17:42+08:00 ] 140.205.201.43 /extensions/kindeditor/themes/default/default.png)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 C:\PHP\WWW\hongbao\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Kindeditor
+

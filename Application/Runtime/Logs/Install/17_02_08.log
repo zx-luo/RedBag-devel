@@ -1,0 +1,329 @@
+[ 2017-02-08T10:24:26+08:00 ] 127.0.0.1 /index.php?m=install
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.094005s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.095005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.172010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.172010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:24:31+08:00 ] 127.0.0.1 /index.php?m=Install&c=Index&a=step1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T10:24:37+08:00 ] 127.0.0.1 /index.php?m=Install&c=Index&a=step2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-02-08T10:25:07+08:00 ] 127.0.0.1 /index.php?m=Install&c=Index&a=step3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: db_name D:\phpStudy\WWW\ThinkPHP\Library\Think\Db.class.php 第 68 行.
+SQL: CREATE DATABASE IF NOT EXISTS `sasa` DEFAULT CHARACTER SET utf8 [ RunTime:0.2740s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO" [ RunTime:0.1080s ]
+SQL: SET time_zone = "+00:00" [ RunTime:0.0000s ]
+SQL: /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */ [ RunTime:0.0700s ]
+SQL: /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */ [ RunTime:0.0100s ]
+SQL: /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */ [ RunTime:0.0000s ]
+SQL: /*!40101 SET NAMES utf8 */ [ RunTime:0.0000s ]
+SQL: CREATE TABLE IF NOT EXISTS `77768688_fenxiao` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `fjine1` int(11) NOT NULL DEFAULT '0',
+  `fjine2` int(11) NOT NULL DEFAULT '0',
+  `fjine3` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 [ RunTime:0.4490s ]
+SQL: CREATE TABLE IF NOT EXISTS `77768688_hb` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `hzhifue` int(11) NOT NULL DEFAULT '0',
+  `hminmoney` int(11) NOT NULL DEFAULT '0',
+  `hmaxmoney` int(11) NOT NULL DEFAULT '0',
+  `hgeshu` int(11) NOT NULL DEFAULT '0',
+  `hbianhua` int(11) NOT NULL DEFAULT '0',
+  `hlastbian` int(11) NOT NULL DEFAULT '0',
+  `hb` varchar(300) NOT NULL DEFAULT '',
+  `hcode` int(2) NOT NULL DEFAULT '1',
+  `htype` int(2) NOT NULL DEFAULT '1',
+  `htime` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `hbianhua` (`hbianhua`),
+  KEY `hcode` (`hcode`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 [ RunTime:0.3510s ]
+SQL: CREATE TABLE IF NOT EXISTS `77768688_hb_gailv` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `hbid` int(11) NOT NULL DEFAULT '0',
+  `hmin` int(11) NOT NULL DEFAULT '0',
+  `hmax` int(11) NOT NULL DEFAULT '0',
+  `hgailv` int(11) NOT NULL DEFAULT '0',
+  `hjiaodu` int(11) NOT NULL DEFAULT '0',
+  `hcishu` int(4) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `hbid` (`hbid`),
+  KEY `hcishu` (`hcishu`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 [ RunTime:0.1830s ]
+SQL: CREATE TABLE IF NOT EXISTS `77768688_news` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `ncontent` text NOT NULL,
+  `ntype` int(2) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`),
+  KEY `ntype` (`ntype`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 [ RunTime:0.0990s ]
+SQL: CREATE TABLE IF NOT EXISTS `77768688_sys_config` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `ctongzhi` varchar(500) NOT NULL DEFAULT '',
+  `cwxchoutxt` varchar(500) NOT NULL DEFAULT '',
+  `cbeicode` int(2) NOT NULL DEFAULT '2',
+  `cbeiurl` varchar(150) NOT NULL DEFAULT '',
+  `cbeiappid` varchar(50) NOT NULL DEFAULT '',
+  `cbeiappsecret` varchar(50) NOT NULL DEFAULT '',
+  `cwxappid` varchar(50) NOT NULL DEFAULT '',
+  `cwxappsecret` varchar(50) NOT NULL DEFAULT '',
+  `cwxappkey` varchar(40) NOT NULL DEFAULT '',
+  `cwxmchid` varchar(30) NOT NULL DEFAULT '',
+  `ckouliang` int(3) NOT NULL DEFAULT '0',
+  `cyongjinfa` int(2) NOT NULL DEFAULT '1',
+  `cyongjine` int(11) NOT NULL DEFAULT '0',
+  `cdenglucode` int(3) NOT NULL DEFAULT '1',
+  `cdailishengji` int(2) NOT NULL DEFAULT '1',
+  `cdailicode` int(2) NOT NULL DEFAULT '1',
+  `cmaurl` varchar(150) NOT NULL DEFAULT '',
+  `cfaurl` varchar(150) NOT NULL DEFAULT '',
+  `cpingbie` int(11) NOT NULL DEFAULT '0',
+  `cgundong` int(4) NOT NULL DEFAULT '1',
+  `adminid` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 [ RunTime:0.0960s ]
+SQL: CREATE TABLE IF NOT EXISTS `77768688_sys_log` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `lbiaoshi` varchar(50) NOT NULL DEFAULT '',
+  `lcon` text,
+  `ltime` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 [ RunTime:0.0440s ]
+SQL: CREATE TABLE IF NOT EXISTS `77768688_sys_user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uname` varchar(20) NOT NULL,
+  `upass` varchar(20) NOT NULL DEFAULT '',
+  `utype` int(2) NOT NULL DEFAULT '1',
+  `utime` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 [ RunTime:0.0770s ]
+SQL: CREATE TABLE IF NOT EXISTS `77768688_user_chongzhi` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `userid` int(11) NOT NULL DEFAULT '0',
+  `ddanhao` varchar(50) NOT NULL DEFAULT '',
+  `djine` int(11) NOT NULL DEFAULT '0',
+  `dcode` int(3) NOT NULL DEFAULT '1',
+  `djisuan` int(2) NOT NULL DEFAULT '1',
+  `dtime` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `ddanhao` (`ddanhao`),
+  KEY `userid` (`userid`),
+  KEY `dcode` (`dcode`)
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk [ RunTime:0.0790s ]
+SQL: CREATE TABLE IF NOT EXISTS `77768688_user_hb` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `userid` int(11) NOT NULL DEFAULT '0',
+  `hbid` int(11) NOT NULL DEFAULT '0',
+  `hbe` int(11) NOT NULL DEFAULT '0',
+  `tcode` int(2) NOT NULL DEFAULT '1',
+  `ttime` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `userid` (`userid`),
+  KEY `hbid` (`hbid`),
+  KEY `tcode` (`tcode`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 [ RunTime:0.0710s ]
+SQL: CREATE TABLE IF NOT EXISTS `77768688_user_list` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `utid` int(11) NOT NULL DEFAULT '0',
+  `uopenid` varchar(50) NOT NULL DEFAULT '',
+  `ubeiopenid` varchar(50) NOT NULL DEFAULT '',
+  `uickname` varchar(20) DEFAULT NULL,
+  `uheadimgurl` varchar(160) DEFAULT NULL,
+  `usex` int(2) NOT NULL DEFAULT '0',
+  `udizhi` varchar(40) DEFAULT NULL,
+  `uvip` int(5) NOT NULL DEFAULT '0',
+  `uhbcon` varchar(300) NOT NULL DEFAULT '',
+  `ufacishu` int(5) NOT NULL DEFAULT '0',
+  `ugengxin` int(11) NOT NULL DEFAULT '0',
+  `ustate` int(11) NOT NULL DEFAULT '1',
+  `ulogintime` int(11) NOT NULL DEFAULT '0',
+  `uregtime` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `utid` (`utid`),
+  KEY `uopenid` (`uopenid`),
+  KEY `uvip` (`uvip`),
+  KEY `ubeiopenid` (`ubeiopenid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 [ RunTime:0.0970s ]
+SQL: CREATE TABLE IF NOT EXISTS `77768688_user_tixian` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `userid` int(11) NOT NULL DEFAULT '0',
+  `uchong` int(11) NOT NULL DEFAULT '0',
+  `tixiane` int(11) NOT NULL DEFAULT '0',
+  `tcode` int(2) NOT NULL DEFAULT '1',
+  `tjisuan` int(2) NOT NULL DEFAULT '1',
+  `ttime` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `userid` (`userid`),
+  KEY `tcode` (`tcode`)
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk [ RunTime:0.1470s ]
+SQL: CREATE TABLE IF NOT EXISTS `77768688_user_zhanghu` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `userid` int(11) NOT NULL DEFAULT '0',
+  `uqianzheng` int(11) NOT NULL DEFAULT '0',
+  `uqianfa` int(11) NOT NULL DEFAULT '0',
+  `uzhengzong` int(11) NOT NULL DEFAULT '0',
+  `uqianchong` int(11) NOT NULL DEFAULT '0',
+  `uchongzong` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `userid` (`userid`),
+  KEY `uqianchong` (`uqianzheng`),
+  KEY `uchongzong` (`uchongzong`),
+  KEY `uzhengzong` (`uzhengzong`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 [ RunTime:0.0840s ]
+SQL: CREATE TABLE IF NOT EXISTS `77768688_weixin_caidan` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `cid` int(11) NOT NULL DEFAULT '0',
+  `cname` varchar(50) NOT NULL DEFAULT '',
+  `ckey` varchar(50) NOT NULL DEFAULT '',
+  `curl` varchar(150) NOT NULL DEFAULT '',
+  `ctype` int(11) NOT NULL DEFAULT '0',
+  `cnum` int(2) NOT NULL DEFAULT '1',
+  `adminid` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 [ RunTime:0.0590s ]
+SQL: CREATE TABLE IF NOT EXISTS `77768688_weixin_mobanid` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `mbianhao` varchar(150) NOT NULL DEFAULT '',
+  `mid` varchar(150) NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 [ RunTime:0.0810s ]
+SQL: CREATE TABLE IF NOT EXISTS `77768688_weixin_sendcon` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `kid` int(11) NOT NULL DEFAULT '0',
+  `sname` varchar(100) NOT NULL DEFAULT '',
+  `sdec` varchar(500) NOT NULL DEFAULT '',
+  `spic` varchar(50) NOT NULL DEFAULT '',
+  `surl` varchar(150) NOT NULL DEFAULT '',
+  `snum` int(2) NOT NULL DEFAULT '1',
+  `stime` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 [ RunTime:0.0720s ]
+SQL: CREATE TABLE IF NOT EXISTS `77768688_weixin_sendkey` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `adminid` int(11) NOT NULL DEFAULT '0',
+  `sname` varchar(100) NOT NULL DEFAULT '',
+  `stype` int(2) NOT NULL DEFAULT '1',
+  `kcode` int(2) NOT NULL DEFAULT '1',
+  `stime` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 [ RunTime:0.0470s ]
+SQL: CREATE TABLE IF NOT EXISTS `77768688_yongjin_set` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `ydengji` int(11) NOT NULL DEFAULT '0',
+  `ybaifenbi` int(11) NOT NULL DEFAULT '0',
+  `yjine` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `ydengji` (`ydengji`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 [ RunTime:0.0600s ]
+SQL: /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */ [ RunTime:0.0010s ]
+SQL: /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */ [ RunTime:0.0000s ]
+SQL: /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */ [ RunTime:0.0000s ]
+SQL: INSERT INTO `77768688_sys_user`(uname,upass,utime) VALUES ('admin', 'admin','1486520706'); [ RunTime:0.0730s ]
+
+[ 2017-02-08T10:25:07+08:00 ] 127.0.0.1 /index.php?m=Install&c=Index&a=step4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T11:26:13+08:00 ] 127.0.0.1 /index.php?m=install
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
